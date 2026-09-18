@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "motion/react";
 import { FiArrowRight } from "react-icons/fi";
 import growth from "../../assets/images/growth.webp";
+import DigitalCard from "./digitalcard";
 
 const DigitalGrowth = () => {
   return (
@@ -51,6 +52,8 @@ const DigitalGrowth = () => {
           />
         </motion.div>
       </div>
+
+      <DigitalCard />
     </section>
   );
 };

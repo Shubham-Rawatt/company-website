@@ -1,13 +1,6 @@
 // data/services.ts
 
-import {
-  FiLayout,
-  FiCode,
-  FiSmartphone,
-  FiCpu,
-  FiCloud,
-  FiLayers,
-} from "react-icons/fi";
+import { FiLayout, FiCode, FiSmartphone, FiCpu, FiCloud, FiLayers} from "react-icons/fi";
 
 export const services = [
   {
