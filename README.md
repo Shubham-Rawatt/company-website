@@ -47,47 +47,7 @@ The website can also be reused as a reference/template by replacing the company 
 
 ## 📁 Project Structure
 
-```text
-company-web/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── .gitignore
-├── package.json
-├── vite.config.js
-└── README.md
-```
 
-## ⚙️ Getting Started
-
-Clone the repository:
-
-```bash
-git clone YOUR_REPOSITORY_URL
-```
-
-Go to the project directory:
-
-```bash
-cd company-web
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
 
 The website will be available at the local development URL shown in the terminal.
 

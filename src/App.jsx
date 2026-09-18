@@ -1,10 +1,19 @@
+import DigitalGrowth from "./components/DigitalGrowth/digitalgrowth"
+import Hero from "./components/Hero/hero"
+import Navbar from "./components/navbar/navbar"
+import StatsCard from "./components/Stats/stats"
+import WhatWeDo from "./components/WhatWeDo/whatwedo"
 
 function App() {
 
   return (
-    <>
-      <h3 className="text-center">company website</h3>
-    </>
+    <main>
+      <Navbar />
+      <Hero />
+      <WhatWeDo />
+      <StatsCard />
+      <DigitalGrowth />
+    </main>
   )
 }
 
