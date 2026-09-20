@@ -30,7 +30,7 @@ const Accordion = () => {
               aria-expanded={index === 0}
               aria-controls={`accordion-body-${faq.id}`}
             >
-              <span>{faq.question}</span>
+              <span className="font-bold">{faq.question}</span>
 
               <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gray-50">
                 <FiChevronDown
@@ -48,7 +48,7 @@ const Accordion = () => {
             aria-labelledby={`accordion-heading-${faq.id}`}
           >
             <div className="border-t border-gray-100 px-6 pb-6 pt-5">
-              <p className="text-sm leading-7 text-[#40516a] sm:text-base">
+              <p className="text-sm font-normal leading-6 text-[#40516a] sm:text-base">
                 {faq.answer}
               </p>
             </div>
