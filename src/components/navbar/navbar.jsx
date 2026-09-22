@@ -8,7 +8,7 @@ const Navbar = () => {
   const [industriesOpen, setIndustriesOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#111111] px-5 py-4 md:px-10 md:py-5">
+    <nav className="sticky top-0 z-50  shadow-md bg-[#111111] px-5 py-4 md:px-10 md:py-5">
       <div className="mx-auto max-w-7xl">
         {/* Top Navbar */}
         <div className="flex items-center justify-between">

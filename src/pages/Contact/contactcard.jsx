@@ -11,7 +11,7 @@ const ContactCard = () => {
 
         <div>
           <p className="text-[10px] text-gray-400">EMAIL US</p>
-          <p className="mt-1 text-sm font-medium">gulkshey@techcouples.com</p>
+          <p className="mt-1 text-sm font-medium">example.com</p>
           <p className="text-xs text-gray-400">We reply within 24 hours</p>
         </div>
       </div>
@@ -23,7 +23,7 @@ const ContactCard = () => {
 
         <div>
           <p className="text-[10px] text-gray-400">CALL US</p>
-          <p className="mt-1 text-sm font-medium">+91 96435 11611</p>
+          <p className="mt-1 text-sm font-medium">+91 123456789</p>
           <p className="text-xs text-gray-400">Mon-Fri, 9am to 6pm IST</p>
         </div>
       </div>
@@ -36,7 +36,7 @@ const ContactCard = () => {
         <div>
           <p className="text-[10px] text-gray-400">OUR OFFICE</p>
           <p className="mt-1 text-sm">
-            WZ-73, 2nd Floor, Nangli Jaleeb, Janakpuri, New Delhi, Delhi 110058
+            dwarka more, New Delhi, Delhi 110058
           </p>
           <p className="text-xs text-gray-400">& Remote Teams Worldwide</p>
         </div>

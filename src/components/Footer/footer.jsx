@@ -1,5 +1,5 @@
 import React from "react";
-import {FiMapPin,FiMail,FiPhone,FiArrowRight,FiLinkedin, FiFacebook,} from "react-icons/fi";
+import { FiMapPin, FiMail, FiPhone, FiArrowRight, FiLinkedin, FiFacebook,} from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="flex gap-3">
               <FiMapPin className="mt-1 shrink-0 text-[#a8733b]" />
               <p>
-                WZ-73, 2nd floor, Nangli Jaleeb, Janakpuri,
+               dwarka more
                 <br />
                 New Delhi, Delhi 110058
               </p>
@@ -28,12 +28,12 @@ const Footer = () => {
 
             <div className="flex items-center gap-3">
               <FiMail className="text-[#a8733b]" />
-              <p>gulKshay@techcouples.com</p>
+              <p>example.com</p>
             </div>
 
             <div className="flex items-center gap-3">
               <FiPhone className="text-[#a8733b]" />
-              <p>+91 9643511611</p>
+              <p>+91 1234567890</p>
             </div>
           </div>
         </div>

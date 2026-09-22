@@ -36,22 +36,7 @@ const DigitalGrowth = () => {
           </button>
         </div>
 
-        {/* Image */}
-        {/* <motion.div
-          animate={{ y: [0, -15, 0] }}
-          transition={{
-            duration: 4,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="overflow-hidden rounded-3xl"
-        >
-          <img
-            src={growth}
-            alt="Digital Growth"
-            className="w-full object-cover"
-          />
-        </motion.div> */}
+     
         {/* Image */}
         <div className="relative">
           <motion.div
