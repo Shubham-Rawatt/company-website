@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <WhatWeDo />
-      <StatsCard />
+      <StatsCard /> 
       <DigitalGrowth />
       <Testimonials />
       <FAQ />
