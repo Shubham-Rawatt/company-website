@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  FiMapPin,
-  FiMail,
-  FiPhone,
-  FiArrowRight,
-  FiLinkedin,
-  FiFacebook,
-} from "react-icons/fi";
+import {FiMapPin,FiMail,FiPhone,FiArrowRight,FiLinkedin, FiFacebook,} from "react-icons/fi";
 
 const Footer = () => {
   return (
