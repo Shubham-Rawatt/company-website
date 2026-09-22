@@ -23,11 +23,12 @@ const DigitalGrowth = () => {
           </h2>
 
           <p className="mt-7 max-w-xl text-base leading-7 text-gray-600">
-            Most customers search before they contact a company. SEO helps your business 
-            appear at that moment, while digital marketing keeps your brand visible across 
-            search, content, and ads. As a Custom Software Development Company and Web 
-            Development Company in Delhi, we make that growth practical-connecting the right
-            audience to your brand, faster.
+            Most customers search before they contact a company. SEO helps your
+            business appear at that moment, while digital marketing keeps your
+            brand visible across search, content, and ads. As a Custom Software
+            Development Company and Web Development Company in Delhi, we make
+            that growth practical-connecting the right audience to your brand,
+            faster.
           </p>
 
           <button className="mt-8 flex items-center gap-3 rounded-full bg-linear-to-r from-[#99652f] to-[#d5ad3d] px-7 py-4 text-sm font-semibold text-white">
@@ -36,8 +37,8 @@ const DigitalGrowth = () => {
         </div>
 
         {/* Image */}
-        <motion.div
-          animate={{ y: [0, -10, 0] }}
+        {/* <motion.div
+          animate={{ y: [0, -15, 0] }}
           transition={{
             duration: 4,
             repeat: Infinity,
@@ -50,7 +51,53 @@ const DigitalGrowth = () => {
             alt="Digital Growth"
             className="w-full object-cover"
           />
-        </motion.div>
+        </motion.div> */}
+        {/* Image */}
+        <div className="relative">
+          <motion.div
+            animate={{ y: [0, -12, 0] }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+            className="overflow-hidden rounded-3xl"
+          >
+            <img
+              src={growth}
+              alt="Digital Growth"
+              className="w-full object-cover"
+            />
+          </motion.div>
+
+          {/* Top Card */}
+          <motion.div
+            animate={{ y: [0, -8, 0] }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+            className="absolute -top-5 left-5 rounded-xl border border-gray-200 bg-white px-5 py-3 shadow-lg"
+          >
+            <p className="text-xs text-gray-400">Organic Traffic</p>
+            <p className="mt-1 text-lg font-bold text-[#99652f]">+42.8%</p>
+          </motion.div>
+
+          {/* Bottom Card */}
+          <motion.div
+            animate={{ y: [0, -8, 0] }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+            className="absolute -bottom-5 right-5 rounded-xl border border-gray-200 bg-white px-5 py-3 shadow-lg"
+          >
+            <p className="text-xs text-gray-400">Search Visibility</p>
+            <p className="mt-1 text-lg font-bold text-[#99652f]">+68%</p>
+          </motion.div>
+        </div>
       </div>
 
       <DigitalCard />

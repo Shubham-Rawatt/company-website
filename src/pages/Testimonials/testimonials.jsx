@@ -18,12 +18,15 @@ const Testimonials = () => {
           </div>
 
           <h4 className="font-medium tracking-[-0.04em] text-gray-900 sm:text-4xl md:text-5xl">
-            What Our <span className="italic font-normal text-red-500">Trusted</span> Clients Say
+            What Our{" "}
+            <span className="italic font-normal text-red-500">Trusted</span>{" "}
+            Clients Say
           </h4>
         </div>
 
         {/* Cards */}
-        <div className="mt-20 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+        <div className="mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-x-10 gap-y-6 px-5 sm:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={testimonial.id}
@@ -35,7 +38,7 @@ const Testimonials = () => {
                 delay: index * 0.12,
               }}
               whileHover={{ y: -8 }}
-              className="group relative mx-auto w-full max-w-[320px] rounded-[28px] border border-gray-100 bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              className="group relative w-full rounded-[28px] border border-gray-100 bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
             >
               {/* Review */}
               <p className="relative z-10 text-[15px] leading-6 text-gray-600">
